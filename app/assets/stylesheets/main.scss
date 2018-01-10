@@ -1,0 +1,56 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+nav.header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1024;
+  background-color: white;
+  border-bottom: 2px solid red;
+  // display: flex;
+  // display: -webkit-flex;
+  // -webkit-flex-direction: row;
+  // flex-direction: row;
+  // > div.grower {
+  //   flex-grow: 1;
+  // }
+  // > div {
+  //   flex-grow: 0;
+  // }
+}
+
+.right-side {
+  float: right;
+  > div {
+    float: left;
+    padding: 2em;
+    > a {
+      text-decoration: none;
+    }
+  }
+  // flex-grow:0;
+}
+
+.hero-image {
+  width: 100%;
+  > img {
+    width: 100%;
+  }
+}
+
+.text {
+  padding: 5em 10em;
+}
+
+.footer {
+  background-color: lightgray;
+  text-align: right;
+  min-height: 5em;
+  padding: 0.5em;
+  > a {
+    text-decoration: none;
+    color: black;
+  }
+}
