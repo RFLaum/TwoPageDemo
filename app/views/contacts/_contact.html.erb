@@ -1,10 +1,6 @@
 <dl>
   <% %i[first_name last_name email zip_code state message].each do |field| %>
-    <dt>
-      <%= field.to_s.humanize %>
-    </dt>
-    <dd>
-      <%= contact[field] %>
-    </dd>
+    <dt><%= field.to_s.humanize %></dt>
+    <dd><%= contact[field] %></dd>
   <% end %>
 </dl>
